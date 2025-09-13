@@ -12,6 +12,7 @@ export const addOneContact = async () => {
     } catch (error) {
         console.error(error);
     }
+    console.log("Додано контакт.");
 };
 
 addOneContact();

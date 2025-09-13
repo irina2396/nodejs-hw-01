@@ -9,6 +9,7 @@ const generateContacts = async (number) => {
         contacts.push(contact);
     };
     await writeContacts(contacts);
+    console.log("Contacts:", contacts);
 };
 
 generateContacts(5);
